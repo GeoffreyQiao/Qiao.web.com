@@ -1,4 +1,7 @@
 @import "reset";
+/**
+ * reset style over!
+ */
 
 header nav h1 {
     visibility: hidden;
@@ -34,7 +37,7 @@ nav div.navbar {
         // background: #343858;
         // line-height: 24vh;
         // font-size: 30rem;
-        // color: #fff;
+        // color: #fff;45
         // text-align: center;
 
         & a{
@@ -43,10 +46,14 @@ nav div.navbar {
             min-width: 20vw;
             background: #343858;
             line-height: 24vh;
-            font-size: 30rem;
+            font-size: 40rem;
             color: #fff;
             // border: 1px solid #000;
             text-align: center;
+
+            &:hover{
+                background:#32779C
+            }
         }
     }
 }

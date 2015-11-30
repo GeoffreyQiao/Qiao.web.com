@@ -65,17 +65,20 @@ a, a:hover, a:visited {
 abbr, acronym {
   border: 0; }
 
-/* line 3, style.scss */
+/**
+ * reset style over!
+ */
+/* line 6, style.scss */
 header nav h1 {
   visibility: hidden; }
 
-/* line 7, style.scss */
+/* line 10, style.scss */
 body {
   height: 100vh;
   width: 100%;
   background: #352121; }
 
-/* line 13, style.scss */
+/* line 16, style.scss */
 nav div.navbar {
   height: 72vh;
   width: 60vw;
@@ -84,7 +87,7 @@ nav div.navbar {
   border-radius: 40rem;
   overflow: hidden; }
 
-/* line 22, style.scss */
+/* line 25, style.scss */
 #nav-items {
   height: inherit;
   width: inherit;
@@ -103,15 +106,21 @@ nav div.navbar {
       -ms-flex-pack: distribute;
           justify-content: space-around;
   background-color: #C2C2C2; }
-  /* line 30, style.scss */
+  /* line 33, style.scss */
   #nav-items .nav-item {
-    display: block;
-    height: 24vh;
-    min-width: 20vw;
-    background: #343858;
-    line-height: 24vh;
-    font-size: 30rem;
-    color: #fff;
-    text-align: center; }
+    display: block; }
+    /* line 43, style.scss */
+    #nav-items .nav-item a {
+      display: block;
+      height: 24vh;
+      min-width: 20vw;
+      background: #343858;
+      line-height: 24vh;
+      font-size: 40rem;
+      color: #fff;
+      text-align: center; }
+      /* line 54, style.scss */
+      #nav-items .nav-item a:hover {
+        background: #32779C; }
 
 /*# sourceMappingURL=style.css.map */
