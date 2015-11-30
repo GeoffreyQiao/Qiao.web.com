@@ -29,13 +29,24 @@ nav div.navbar {
     background-color: #C2C2C2;
     & .nav-item {
         display: block;
-        height: 24vh;
-        min-width: 20vw;
-        background: #343858;
-        line-height: 24vh;
-        font-size: 30rem;
-        color: #fff;
-        // border: 1px solid #000;
-        text-align: center;
+        // height: 24vh;
+        // min-width: 20vw;
+        // background: #343858;
+        // line-height: 24vh;
+        // font-size: 30rem;
+        // color: #fff;
+        // text-align: center;
+
+        & a{
+            display: block;
+            height: 24vh;
+            min-width: 20vw;
+            background: #343858;
+            line-height: 24vh;
+            font-size: 30rem;
+            color: #fff;
+            // border: 1px solid #000;
+            text-align: center;
+        }
     }
 }
